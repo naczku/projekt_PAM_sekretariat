@@ -40,7 +40,8 @@
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538" />
+        app:layout_constraintVertical_bias="0.538"
+        android:textColor="@android:color/holo_orange_dark"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -53,7 +54,8 @@
         app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631" />
+        app:layout_constraintVertical_bias="0.631"
+        android:textColor="@android:color/holo_green_dark"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -61,8 +63,13 @@
         android:layout_height="wrap_content"
         android:text="Pracownik"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="498dp" />
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
 
     <Button
         android:id="@+id/button2"
@@ -82,8 +89,25 @@
         android:layout_height="wrap_content"
         android:text="MENU GŁÓWNE"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="4dp"
-        android:textColor="@android:color/holo_blue_dark"/>
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:text="sekretariat szkolny"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        android:textColor="@android:color/holo_red_dark"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
